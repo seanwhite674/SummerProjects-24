@@ -1,12 +1,21 @@
-Part 1: 
+This project consisted of finding correlated markets with the Italian Bond and then coming up with a strategy based off of the data to trade the spread of the Italian bond and the correlated market
 
-We decided to pick FGBL from EUREX markets to get a read on FBTP price moves. FGBL is a fixed income futures market product following the underlying price of medium to long-term Germany government bonds referred to as Bunds. The Bund is one of the safest government bonds in the EU with a safe haven status in Europe.  
 
-Part 2:  
+Part 1: For trading the FBTP futures market, which other Eurex market do you think is most relevant for
+getting a read on FBTP price action?
+
+
+I decided to pick FGBL from EUREX markets to get a read on FBTP price moves. FGBL is a fixed income futures market product following the underlying price of medium to long-term Germany government bonds referred to as Bunds. The Bund is one of the safest government bonds in the EU with a safe haven status in Europe.  
+
+Part 2:  . Extract price data for FBTP and your chosen market in part 1 and calculate the correlation between
+the two markets. Does the correlation vary much over the period of your data?
+
 
 BTP and Bund are heavily correlated bonds in Europe. Germany being the largest economy in EU and Italy being the third largest economy have a lot in common with both having government loans backed by the ECB. However, Germany being the safest economy in Europe in the investors’ perspective, makes it that during times with high volatility and change in risk sentiment, the strong correlation between the price of these two bonds breaks. This can be seen in the chart for example, during June and French elections, FOAT and FBTP were more correlated, and Bund was often reversing the moves of BTP since BTP is riskier than Bund. 
 
-Part 3: 
+Part 3:  3. Use the data from the two markets above to calculate the spread price of the two markets. How
+likely will the spread price subsequently revert to the starting mean (moving average) if the spread
+price moves 20 ticks or more from the mean?
 
 1: Finding the spread price 
 
