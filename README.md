@@ -20,6 +20,9 @@ price moves 20 ticks or more from the mean?
 1: Finding the spread price 
 
 The data we used were the prices traded in the FGBL and FBTP at half an hour intervals from 01/02/2024 at 08:00 to 29/08/2024 at 14:30. We got the average ATR and average price for the whole period to calculate the spread ratio. We found the best spread price to use was FGBL – FBTP. 
+![image](https://github.com/user-attachments/assets/ac5dd0fc-5526-431d-8551-7343d9d8cb57)
+
+
 
 2: How likely will the spread price subsequently revert to the starting mean (moving average) if the spread price moves 20 ticks or more from the mean? 
 
