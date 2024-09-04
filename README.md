@@ -13,6 +13,8 @@ the two markets. Does the correlation vary much over the period of your data?
 
 BTP and Bund are heavily correlated bonds in Europe. Germany being the largest economy in EU and Italy being the third largest economy have a lot in common with both having government loans backed by the ECB. However, Germany being the safest economy in Europe in the investors’ perspective, makes it that during times with high volatility and change in risk sentiment, the strong correlation between the price of these two bonds breaks. This can be seen in the chart for example, during June and French elections, FOAT and FBTP were more correlated, and Bund was often reversing the moves of BTP since BTP is riskier than Bund. 
 
+![image](https://github.com/user-attachments/assets/2cfe9e58-2ed6-4df3-9c7c-9bda06f3729c)
+
 Part 3:  3. Use the data from the two markets above to calculate the spread price of the two markets. How
 likely will the spread price subsequently revert to the starting mean (moving average) if the spread
 price moves 20 ticks or more from the mean?
