@@ -15,7 +15,7 @@ BTP and Bund are heavily correlated bonds in Europe. Germany being the largest e
 
 ## Part 3:  Use the data from the two markets above to calculate the spread price of the two markets. Howlikely will the spread price subsequently revert to the starting mean (moving average) if the spreadprice moves 20 ticks or more from the mean?
 
-### 1: Finding the spread price 
+#### 1: Finding the spread price 
 
 The data we used were the prices traded in the FGBL and FBTP at half an hour intervals from 01/02/2024 at 08:00 to 29/08/2024 at 14:30. We got the average ATR and average price for the whole period to calculate the spread ratio. We found the best spread price to use was FGBL – FBTP. 
 
@@ -24,7 +24,7 @@ The data we used were the prices traded in the FGBL and FBTP at half an hour int
 
 
 
-### 2: How likely will the spread price subsequently revert to the starting mean (moving average) if the spread price moves 20 ticks or more from the mean? 
+#### 2: How likely will the spread price subsequently revert to the starting mean (moving average) if the spread price moves 20 ticks or more from the mean? 
 
 To complete this we transferred our data to Python. In Python we built a function which recognized whenever the moving average differed to the spread price by 20 ticks. We then built a function which recorded whether the price reverted back to the mean in a given timeframe. Some examples of the results are: 
 
